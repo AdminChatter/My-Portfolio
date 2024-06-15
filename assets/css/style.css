@@ -56,10 +56,16 @@ header h1 {
 nav {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
 nav a {
+  align-items:flex-end;
   text-decoration: none;
   padding: 5px 10px;
   color: var(--secondary);
@@ -70,7 +76,6 @@ nav a {
   background-position: bottom;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
-  
 }
 
 nav a:hover {
@@ -220,6 +225,16 @@ main {
   color: var(--secondary);
 }
 
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
