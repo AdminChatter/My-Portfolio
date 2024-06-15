@@ -197,6 +197,20 @@ main {
   font-size: 1.6rem;
 }
 
+#Contact-Info {
+  justify-content: left;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact ul{
+  display: flex;
+  flex-direction: row;
+}
+
 .contact address {
   display: flex;
   flex-wrap: wrap;
@@ -217,7 +231,7 @@ main {
   background-position: bottom;
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
-  display: inline-block;
+  display: flex;
 }
 
 .contact address a:hover {
