@@ -122,7 +122,7 @@ main {
 }
 
 .page-wrapper {
-  max-width: 88%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -158,6 +158,17 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
+  position: relative;
+  text-align: left;
+}
+
+.flex-container article{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: rgb(95, 228, 228);
+  padding: 2px;
 }
 
 .flex-item {
@@ -198,17 +209,20 @@ main {
 }
 
 #Contact-Info {
-  justify-content: left;
+  justify-content: space-between;
 }
+
 
 .contact{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .contact ul{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .contact address {
@@ -231,7 +245,7 @@ main {
   background-position: bottom;
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
-  display: flex;
+  display: center;
 }
 
 .contact address a:hover {
@@ -239,16 +253,6 @@ main {
   color: var(--secondary);
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-}
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
