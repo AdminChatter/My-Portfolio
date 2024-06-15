@@ -70,6 +70,7 @@ nav a {
   background-position: bottom;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
+  
 }
 
 nav a:hover {
