@@ -351,5 +351,80 @@ main {
 
 /* TODO: add media query for a max-width of 768px */
 @media screen and (max-width=768px){
-  
+  header{
+    flex-direction: column;
+    padding: 15px 0%;
+    text-align: center;
+  }
+  header h1{
+    padding: 5px;
+    width: 100%;
+  }
+  header nav{
+    flex-direction: column; 
+    padding-top: 10px;
+  }
+  header nav a{
+    margin: 0%;
+  }
+
+  .hero-banner h2{
+    text-align: center;
+  }
+
+  main{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .page-section{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 25px;
+  }
+  .page-section h2{
+    text-align: left;
+    width: 90%;
+    border-bottom: 4px solid var(--primary);
+    border-right: none;
+  }
+  #Moblie-Screen{
+    display: flex;
+  }
+  #Desktop-Screen{
+    display: none;
+  }
+  .page-wrapper{
+    margin-top: 10px;
+    max-width: 90%;
+  }
+  .page-wrapper p{
+    margin-bottom: 10px;
+  }
+
+  #Work{
+    display: flex;
+    justify-content: center;
+  }
+  #Work{
+    display: flex;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+  .flex-item:first-child {
+    min-height: 150px;
+    flex-basis: calc(50% - 1em);
+  }
+  .flex-item{
+    width: 90%;
+  }
+
+  .contact{
+    flex-direction: column; 
+    padding-top: 20px;
+  }
+  .contact address{
+    margin-top: 5px;
+  }
 }
