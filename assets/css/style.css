@@ -294,8 +294,8 @@ main {
   }
   .page-section{
     flex-direction: column;
-    justify-content: center;
     align-content: center;
+    align-items: center;
     margin: 25px;
   }
   .page-section h2{
@@ -318,6 +318,13 @@ main {
     margin-bottom: 10px;
   }
 
+  #Work{
+    display: flex;
+    justify-content: center;
+  }
+  #Work{
+    display: flex;
+  }
   .flex-container{
     flex-direction: column;
   }
@@ -331,7 +338,10 @@ main {
 
   .contact{
     flex-direction: column; 
-    padding-top: 10px;
+    padding-top: 20px;
+  }
+  .contact address{
+    margin-top: 5px;
   }
 }
 
