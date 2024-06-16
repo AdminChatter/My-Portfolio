@@ -14,7 +14,10 @@ Download the project from my github(https://github.com/AdminChatter), and then o
 ## Usage
 
 When you click the navgation bar on the top right, it will bring you to each section.
+- Desktop Preview 
 
-![DesktopPreview](assets/image/Preview/MyPortfolioDesktop.jpeg)
+![DesktopPreview](assets/image/Preview/MyPortfolio2.jpeg)
 
-![MobliePreview](assets/image/Preview/MyPortfolioMoblie.jpeg)
+- Moblie Preview
+
+![MobliePreview](assets/image/Preview/MyPortfolio1.jpeg)
