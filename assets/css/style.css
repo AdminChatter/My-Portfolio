@@ -150,6 +150,10 @@ main {
   flex: 0 0 77%;
 }
 
+#Work div li{
+  list-style: none;
+}
+
 .page-section p {
   margin-bottom: 20px;
 }
@@ -164,11 +168,13 @@ main {
 }
 
 .flex-container article{
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  background-color: rgb(95, 228, 228);
-  padding: 2px;
+  position: relative;
+  bottom: 0%;
+  left: 1px;
+  background-color: var(--secondary);
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 6px;
 }
 
 .flex-item {
@@ -189,6 +195,23 @@ main {
   font-size: 0.9rem;
 }
 
+.flex-item img{
+  max-height: 0%;
+  max-width: 0%;
+}
+
+.flex-item div {
+  background-color: var(--secondary);
+  padding: 8px 10px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.flex-item h3 {
+  font-size: 1.6rem;
+}
+
 /* feature first portfolio item */
 .flex-item:first-child {
     min-height: 400px;
@@ -199,19 +222,9 @@ main {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.flex-item div {
-  background-color: var(--secondary);
-  padding: 8px 10px;
-}
-
-.flex-item h3 {
-  font-size: 1.6rem;
-}
-
 #Contact-Info {
   justify-content: space-between;
 }
-
 
 .contact{
   display: flex;
