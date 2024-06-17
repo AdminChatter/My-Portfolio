@@ -202,6 +202,7 @@ main {
 
 .flex-item img{
   max-width: 100%;
+  width: 100%;
 }
 
 .flex-item article{
@@ -209,12 +210,8 @@ main {
   bottom: 5%;
   left: 1px;
   background-color: var(--secondary);
-  width: fit-content;
-  height: fit-content;
   padding: 5px 6px;
 }
-
-
 
 .flex-item h3 {
   font-size: 1.6rem;
@@ -267,8 +264,8 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
-/* media queries */
 
+/* media queries */
 /* TODO: add media query for a max-width of 980px */
 @media screen and (max-width: 980px) {
   header{
@@ -350,7 +347,7 @@ main {
 }
 
 /* TODO: add media query for a max-width of 768px */
-@media screen and (max-width=768px){
+@media screen and (max-width: 768px) {
   header{
     flex-direction: column;
     padding: 15px 0%;
@@ -412,8 +409,8 @@ main {
   .flex-container{
     flex-direction: column;
   }
-  .flex-item:first-child {
-    min-height: 150px;
+  .flex-item img {
+    max-height: 150px;
     flex-basis: calc(50% - 1em);
   }
   .flex-item{
